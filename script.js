@@ -1,7 +1,7 @@
 function convertKjtoKcal(num) {
     console.log(num);
-    let divided = num/4;
-    return divided
+    let calorie = num/4.1855;
+    return calorie
 }
 
 function myFunction() {
