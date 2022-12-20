@@ -1,11 +1,11 @@
+function convertKjtoKcal(num) {
+    console.log(num);
+    let divided = num/4;
+    return divided
+}
 
 function myFunction() {
-    let kilojoule = document.getElementById("kilojoule").value
-    console.log(kilojoule);
+    let kilojoule = document.getElementById("kilojoule").value;
+    console.log(convertKjtoKcal(kilojoule));
 }
 
-function convertKjtoKcal(num) {
-    return num/4.184;
-}
-
-console.log(convertKjtoKcal(1000));
