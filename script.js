@@ -15,6 +15,16 @@ kj.addEventListener("keydown", function (e) {
         }
 });
 
+function swap() {
+    let currentTextContent = document.getElementById("initialMetric").textContent;
+    if(currentTextContent === 'Kj') {
+        document.getElementById("initialMetric").textContent = "Calorie"; 
+    }
+
+    if(currentTextContent === 'Calorie') {
+        document.getElementById("initialMetric").textContent = "Kj"; 
+    }
+}
 
 function myFunction() {
     let kilojoule = document.getElementById("kilojoule").value;
