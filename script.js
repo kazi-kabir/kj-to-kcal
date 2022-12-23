@@ -15,6 +15,10 @@ kj.addEventListener("keydown", function (e) {
         }
 });
 
+function writeOutputToScreen() {
+    
+}
+
 function swap() {
     let currentTextContent = document.getElementById("initialMetric").textContent;
     if(currentTextContent === 'Kj') {
