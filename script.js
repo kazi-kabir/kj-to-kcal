@@ -26,7 +26,7 @@ function swap() {
     }
 
     if(currentTextContent === 'Calorie') {
-        document.getElementById("contentOutput").textContent = "Kj"; 
+        document.getElementById("initialMetric").textContent = "Kj"; 
     }
 }
 
