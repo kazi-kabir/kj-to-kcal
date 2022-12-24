@@ -1,7 +1,7 @@
 # kj-to-kcal
 
 TODO
-- [ ] create form to take input from user
-- [ ] create button to swap conversion metrics
+- [x] create form to take input from user
+- [x] create button to swap conversion metrics
 - [ ] styling 
-- [ ] print to screen
+- [x] print to screen
