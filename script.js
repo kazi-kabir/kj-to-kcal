@@ -11,12 +11,12 @@ kj.addEventListener("keydown", function (e) {
             let valueOfKj = document.getElementById("kilojoule").value
             let res = convertKjtoKcal(valueOfKj);
             console.log(res) 
-
+            writeOutputToScreen(res);
         }
 });
 
-function writeOutputToScreen() {
-    
+function writeOutputToScreen(res) {
+    document.getElementById("contentOutput").textContent = res;  
 }
 
 function swap() {
@@ -26,7 +26,7 @@ function swap() {
     }
 
     if(currentTextContent === 'Calorie') {
-        document.getElementById("initialMetric").textContent = "Kj"; 
+        document.getElementById("contentOutput").textContent = "Kj"; 
     }
 }
 
