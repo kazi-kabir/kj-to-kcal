@@ -18,6 +18,7 @@ input[type=text] {
     border-color: rgba(0, 0, 0, .15);
     background-color: white;
     font-size: 16px;
+
 }
 
 
@@ -50,13 +51,35 @@ button {
 button,
 button:focus {
   background-color: #07c;
+  align-items: center;
+  justify-content: space-around;
 }
 
 button:focus {
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  align-items: center;
+  justify-content: space-around;
 }
 
 button:active {
   background-color: #0064bd;
   box-shadow: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*center everything*/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
