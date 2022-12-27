@@ -10,8 +10,7 @@ kj.addEventListener("keydown", function (e) {
     if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
             let valueOfKj = document.getElementById("kilojoule").value
             let res = convertKjtoKcal(valueOfKj);
-            console.log(res) 
-            writeOutputToScreen(res);
+            writeOutputToScreen(res.toFixed(2));
         }
 });
 
@@ -19,19 +18,9 @@ function writeOutputToScreen(res) {
     document.getElementById("contentOutput").textContent = res;  
 }
 
-function swap() {
-    let currentTextContent = document.getElementById("initialMetric").textContent;
-    if(currentTextContent === 'Kj') {
-        document.getElementById("initialMetric").textContent = "Calorie"; 
-    }
-
-    if(currentTextContent === 'Calorie') {
-        document.getElementById("initialMetric").textContent = "Kj"; 
-    }
-}
-
 function convert() {
-    let kilojoule = document.getElementById("kilojoule").value;
-    console.log(convertKjtoKcal(kilojoule));
+    let valueOfKj = document.getElementById("kilojoule").value
+    let res = convertKjtoKcal(valueOfKj);
+    writeOutputToScreen(res.toFixed(2));
 }
 
