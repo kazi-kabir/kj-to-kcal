@@ -6,5 +6,5 @@ TODO
   - [x] header
   - [x] form
   - [x] output
-  - [ ] buttons
+  - [x] button
 - [x] print to screen
