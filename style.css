@@ -82,6 +82,8 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin: 0 auto;
     display: block;
+    margin-left: 35%;
+    margin-right: 90%;
+    position: relative;
   }
