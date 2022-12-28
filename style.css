@@ -18,6 +18,7 @@ input[type=text] {
     border-color: rgba(0, 0, 0, .15);
     background-color: white;
     font-size: 16px;
+    text-align: center
 }
 
 #contentOutput, #initialMetric {
@@ -27,8 +28,14 @@ input[type=text] {
     align-items: center;
     justify-content: space-around;
     font-family: "Helvetica Neue Light", "Helvetica Neue", 
-    Helvetica
+    Helvetica;
+    font-weight: bold;
 }
+
+#contentOutput {
+    font-size: large;
+}
+
 
 
 /*center everything*/
@@ -49,12 +56,18 @@ button:focus {
   justify-content: space-around;
   vertical-align: middle;
   position: absolute;
+  margin-left: 35%;
+  margin-right: 90%;
+  position: relative;
 }
 
 button:focus {
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
   align-items: center;
   justify-content: space-around;
+  margin-left: 35%;
+  margin-right: 90%;
+  position: relative;
 }
 
 button:active {
@@ -62,6 +75,9 @@ button:active {
   box-shadow: none;
   align-items: center;
   justify-content: space-around;
+  margin-left: 35%;
+  margin-right: 90%;
+  position: relative;
 }
 
 button {

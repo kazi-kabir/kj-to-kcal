@@ -1,5 +1,4 @@
 function convertKjtoKcal(num) {
-    console.log(num);
     let calorie = num/4.1855;
     return calorie
 }
@@ -15,7 +14,7 @@ kj.addEventListener("keydown", function (e) {
 });
 
 function writeOutputToScreen(res) {
-    document.getElementById("contentOutput").textContent = res;  
+    document.getElementById("contentOutput").textContent = res + 'kcal';  
 }
 
 function convert() {
