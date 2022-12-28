@@ -8,3 +8,8 @@ TODO
   - [x] output
   - [x] button
 - [x] print to screen
+
+STRETCH GOALS
+- [ ] create a swap button to reverse the calculator (kcal to kj)
+  - [ ] update title
+  - [ ] include swap button
