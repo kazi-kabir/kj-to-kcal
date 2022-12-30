@@ -6,7 +6,7 @@ function convertKjtoKcal(num) {
 let kj = document.getElementById("kilojoule");
 
 kj.addEventListener("keydown", function (e) {
-    if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
+    if (e.code === "Enter") {  
             let valueOfKj = document.getElementById("kilojoule").value
             let res = convertKjtoKcal(valueOfKj);
             writeOutputToScreen(res.toFixed(2));
